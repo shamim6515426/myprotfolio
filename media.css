@@ -1,0 +1,206 @@
+@media screen and (max-width:576px) {
+
+  .navbuttom {
+    display: none;
+  }
+
+  .banner-text {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .inputmultipul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-text p {
+    margin-left: 15px !important;
+  }
+
+  .banner-text h1 {
+    font-size: 40px;
+  }
+
+  .myadvantegeskill {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .year h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+  .banner-text {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .banner-text p {
+    margin-left: 15px !important;
+  }
+
+  .myadvantegeskill {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .inputmultipul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #number {
+    padding: 40px 0;
+  }
+
+}
+
+@media screen and (min-width:300px) and (max-width:765px) {
+  .clientimg {
+    height: 400px;
+    width: 400px;
+  }
+  .send-massegn button{
+    margin: 15px 0 !important;
+ }
+  .send-massegn{
+     display: block;
+     padding: 40px 10px;
+
+  }
+
+  .myworktext h1 {
+    font-size: 40px;
+
+    margin: 25px 0;
+    font-weight: bold;
+  }
+
+  .myworkyear {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .myworkyear .Ponser h2 {
+    font-size: 22px;
+  }
+
+  .myworkyear .Ponser p {
+    font-size: 16px;
+  }
+
+  .myworkyear .Linkworke a {
+    font-size: 18px;
+  }
+
+  .myaddvnategetext h1 {
+    font-size: 39px;
+    font-weight: 700;
+  }
+
+  .servicestext h1 {
+    font-size: 45px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+  .inputmultipul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (min-width:1200px) {}
+
+@media screen and (min-width:900px) {
+
+  .myadvantegeskill {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .navitem {
+    display: none;
+  }
+
+  .iconbar {
+    display: block;
+  }
+
+}
+
+@media screen and (min-width:768px) {
+  .myworkyear {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+}
+
+@media screen and (max-width:400px) {
+  .clientimg {
+    height: 300px;
+    width: 300px;
+  }
+
+  .div1 img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .myaddvnategetext h1 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+
+  .div1 img {
+    width: 20px;
+    height: 20px;
+  }
+  .send-massegn button{
+     margin: 15px 0 !important;
+  }
+  .clientimg {
+    height: 250px;
+    width: 250px;
+  }
+  .send-massegn{
+    display: block;
+    padding: 70px 10px;
+ }
+
+  .servicestext h1 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .myworktext h1 {
+    font-size: 30px;
+
+    margin: 25px 0;
+    font-weight: bold;
+  }
+
+  .year h1 {
+    font-size: 20px;
+  }
+}
